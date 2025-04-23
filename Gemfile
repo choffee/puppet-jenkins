@@ -8,7 +8,7 @@ gem 'puppet-syntax'
 gem 'puppet', ENV['PUPPET_VERSION'] || '~> 3.2.0'
 
 group :development do
-  gem 'vagrant'
+  gem 'vagrant', '>= 2.4.4'
   gem 'rcov'
   gem 'parallel_tests'
   gem 'ci_reporter'
